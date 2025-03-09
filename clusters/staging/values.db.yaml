@@ -1,0 +1,4 @@
+settings:
+  authMethod: trust
+service:
+  name: db
