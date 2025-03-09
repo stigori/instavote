@@ -17,4 +17,5 @@ commonLabels:
   env: staging
 configMapGenerator:
 - name: vote-options
-  env: options.env
+  envs:
+    - options.env
