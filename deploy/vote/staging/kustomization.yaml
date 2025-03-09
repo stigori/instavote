@@ -15,3 +15,6 @@ namespace: instavote
 commonLabels:
   project: instavote
   env: staging
+configMapGenerator:
+- name: vote-options
+  env: options.env
